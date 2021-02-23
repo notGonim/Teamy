@@ -35,6 +35,7 @@ export const Sidebar = () => {
             <SidebarOption Icon={AppsIcon} title="Apps" />
             <SidebarOption Icon={FileCopyIcon} title="File browser" />
             <SidebarOption Icon={ExpandLessIcon} title="Show Less" />
+            <hr />
         </SidebarContainer>
     )
 }
