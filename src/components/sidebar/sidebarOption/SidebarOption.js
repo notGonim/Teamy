@@ -2,7 +2,7 @@ import React from 'react'
 import db from '../../../firebase/firebase'
 import { SidebarOptionChannel, SidebarOptionContainer } from './SidebarOptionStyles'
 
-export const SidebarOption = ({ Icon, title, addChannelOption }) => {
+export const SidebarOption = ({ Icon, title, addChannelOption ,id}) => {
 
     const addChannel = () => {
         const channelName = prompt('Please Add a Channel name ?')
