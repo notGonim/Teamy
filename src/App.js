@@ -9,29 +9,24 @@ import { Sidebar } from './components/sidebar/Sidebar';
 function App() {
   return (
     <div className="App">
-
-      <Route>
+      <Router>
         <>
           <Header />
-          <Sidebar />
           <AppBody>
+            <Sidebar />
             <Switch>
-              <Route exact path="/" />
+              <Route exact path="/"  >  {/* chat components*/} </Route>
             </Switch>
           </AppBody>
         </>
-
-      </Route>
-
-
-
+      </Router>
     </div>
   );
 }
 
 export default App;
 
-
 const AppBody = styled.div`
-
+  display:flex;
+  height:100vh;
 `
