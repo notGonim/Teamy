@@ -10,6 +10,9 @@ import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import AppsIcon from '@material-ui/icons/Apps';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
+import AddIcon from '@material-ui/icons/Add';
 
 import { SidebarOption } from './sidebarOption/SidebarOption';
 
@@ -36,6 +39,10 @@ export const Sidebar = () => {
             <SidebarOption Icon={FileCopyIcon} title="File browser" />
             <SidebarOption Icon={ExpandLessIcon} title="Show Less" />
             <hr />
+            <SidebarOption Icon={ExpandMoreIcon} addChannelOption title="Channels" />
+            <hr />
+            <SidebarOption Icon={AddIcon} title="Add channel" />
+
         </SidebarContainer>
     )
 }

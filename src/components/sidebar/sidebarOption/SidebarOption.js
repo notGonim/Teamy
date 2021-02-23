@@ -1,7 +1,7 @@
 import React from 'react'
 import { SidebarOptionChannel, SidebarOptionContainer } from './SidebarOptionStyles'
 
-export const SidebarOption = ({ Icon, title }) => {
+export const SidebarOption = ({ Icon, title, addChannelOption }) => {
     return (
         <SidebarOptionContainer>
             {Icon && <Icon fontSize="small" style={{ padding: 10 }} />}
