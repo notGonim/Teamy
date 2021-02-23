@@ -39,9 +39,9 @@ export const Sidebar = () => {
             <SidebarOption Icon={FileCopyIcon} title="File browser" />
             <SidebarOption Icon={ExpandLessIcon} title="Show Less" />
             <hr />
-            <SidebarOption Icon={ExpandMoreIcon} addChannelOption title="Channels" />
+            <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
             <hr />
-            <SidebarOption Icon={AddIcon} title="Add channel" />
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add channel" />
 
         </SidebarContainer>
     )
